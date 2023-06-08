@@ -3,12 +3,24 @@
     padding: 0;
 }
 
+/* Navbar  */
 nav{
-    width: 100%;
+    width: 80%;
     height: 80px;
+    display: flex;
+    margin: auto;
     border: 1px solid black;
 }
 
-.navbar > a{
-    margin: 10px 0;
+.navbar{
+    display: flex;
+    margin: auto;
+
 }
+
+.nav-item{
+    margin: 1rem ;
+}
+
+/* Section 1st */
+
