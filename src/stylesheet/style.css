@@ -31,10 +31,10 @@ nav{
 }
 
 .button-item{
-    margin-right: 20px;
+    margin-left: 250px;
 }
 
-/* Section 1st */
+/* Section intro */
 
 .intro{
     display: flex;
@@ -48,9 +48,25 @@ nav{
     border: 1px solid black;
 }
 
+.intro-sub{
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-column1{
+    margin: 8rem 0 3rem 0;
+}
+
+.intro-column2{
+    margin: 2rem 0 1rem 0;
+}
+
+.intro-column3{
+    margin: 2rem 0 1rem 0;
+}
 /* Section about */
 
-.about{
+.about-intro{
     display: flex;
     border: 1px solid black;
     width: 100%;
