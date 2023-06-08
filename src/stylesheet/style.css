@@ -5,21 +5,33 @@
 
 /* Navbar  */
 nav{
-    width: 80%;
+    width: 100%;
     height: 80px;
     display: flex;
     margin: auto;
     border: 1px solid black;
+    background: #a2d2ff;
 }
 
 .navbar{
     display: flex;
     margin: auto;
-
 }
 
 .nav-item{
     margin: 1rem ;
+}
+
+#name{
+    font-size: 2.5rem;
+}
+
+.hire-button{
+    margin-right: 20px;
+}
+
+.button-item{
+    margin-right: 20px;
 }
 
 /* Section 1st */
@@ -28,7 +40,7 @@ nav{
     display: flex;
     border: 1px solid black;
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 .intro-sub{
@@ -42,7 +54,7 @@ nav{
     display: flex;
     border: 1px solid black;
     width: 100%;
-    height: 700px;
+    height: 600px;
 
 }
 
@@ -57,7 +69,7 @@ nav{
     display: flex;
     border: 1px solid black;
     width: 100%;
-    height: 700px;
+    height: 600px;
 }
 
 .project-sub{
@@ -71,5 +83,5 @@ nav{
     /* display: flex; */
     border: 1px solid black;
     width: 100%;
-    height: 700px;   
+    height: 600px;   
 }
