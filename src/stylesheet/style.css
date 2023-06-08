@@ -24,3 +24,52 @@ nav{
 
 /* Section 1st */
 
+.intro{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+}
+
+.intro-sub{
+    width: 50%;
+    border: 1px solid black;
+}
+
+/* Section about */
+
+.about{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+
+}
+
+.introbrief{
+    width: 50%;
+    border: 1px solid black;
+}
+
+/* Section Projects  */
+
+.projects{
+    display: flex;
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+}
+
+.project-sub{
+    width: 30%;
+    border: 1px solid black;
+}
+
+/* Section touch  */
+
+.touch{
+    /* display: flex; */
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;   
+}
