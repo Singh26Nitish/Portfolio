@@ -9,9 +9,7 @@ a {
   
 
 /* Navbar  */
-nav{
-    border: 1px solid black;
-}
+
 
 .navbar{
     display: flex;
@@ -23,7 +21,6 @@ nav{
 
 .logo{
     width: 25%;
-    border: 1px solid black;
     display: flex;
     
 }
@@ -34,7 +31,6 @@ nav{
 
 .item-list{
     width: 50%;
-    border: 1px solid black;
     display: flex;
 }
 
@@ -46,7 +42,6 @@ nav{
 
 .button{
     width: 25%;
-    border: 1px solid black;
     display: flex;
 }
 
