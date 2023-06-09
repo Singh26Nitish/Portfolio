@@ -3,24 +3,13 @@
     padding: 0;
 }
 
+a {
+    text-decoration: none !important;
+  }
+  
+
 /* Navbar  */
 nav{
-    border: 1px solid black;
-    background: #a2d2ff;
-}
-
-.logo{
-    width: 20%;
-    border: 1px solid black;
-}
-
-.item-list{
-    width: 60%;
-    border: 1px solid black;
-}
-
-.button{
-    width: 20%;
     border: 1px solid black;
 }
 
@@ -31,6 +20,49 @@ nav{
 .nav-component{
     height: 80px;
 }
+
+.logo{
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.logo-item{
+    margin: auto;
+}
+
+.item-list{
+    width: 50%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.nav-item{
+    margin: auto;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+.button{
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.hire-button{
+    margin: auto;
+}
+
+.button-item{
+    padding: 15px 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+}
+
+
 
 /* Section intro */
 
