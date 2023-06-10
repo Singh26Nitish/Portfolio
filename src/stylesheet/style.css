@@ -5,14 +5,18 @@
 
 a {
     text-decoration: none !important;
-  }
-  
+}
+
+.body{
+    background: linear-gradient(to bottom right, red, yellow);
+}
 
 /* Navbar  */
 
 
 .navbar{
     display: flex;
+    background-image: linear-gradient(to bottom right, #71C9CE, #A6E3E9);
 }
 
 .nav-component{
@@ -66,6 +70,7 @@ a {
     /* border: 1px solid black; */
     width: 100%;
     height: 450px;
+    background: #DDFFBB;
 }
 
 .intro-sub{
@@ -76,20 +81,17 @@ a {
 }
 
 .intro-column1{
-    margin: 8rem 0 3rem 0;
+    margin: 8rem 0 1rem 0;
 }
 
 .intro-column2{
-    margin: 2rem 0 1rem 0;
-    text-align: justify;
-}
-
-.intro-column2 p{
-    margin: 2rem;
+    width: 70%;
+    margin: auto;
 }
 
 .name{
     text-align: center;
+    font-size: 3rem;
 }
 
 .intro-text{
@@ -109,6 +111,7 @@ a {
 .about{
     display: flex;
     flex-direction: column;
+    background: #DDFFBB;
 }
 .about-me{
     text-align: center;
@@ -158,6 +161,7 @@ a {
 /* Section Projects  */
 
 .projects{
+    background: #DDFFBB;
     display: flex;
     border: 1px solid black;
     width: 100%;
@@ -173,6 +177,7 @@ a {
 /* Section touch  */
 
 .touch{
+    background: #DDFFBB;
     display: flex;
     flex-direction: column;
     /* border: 1px solid black; */
