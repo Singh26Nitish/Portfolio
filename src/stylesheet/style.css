@@ -93,6 +93,14 @@ a {
 
 /* Section about */
 
+.left{
+    width: 60%;
+}
+
+.right{
+    width: 40%;
+}
+
 .about{
     display: flex;
     flex-direction: column;
@@ -109,15 +117,21 @@ a {
 
 }
 
-.introbrief{
-    width: 50%;
-    border: 1px solid black;
-}
+.introbrief.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .profile-pic .pic {
+    max-width: 70%;
+  }
 
-.pic{
-    width: 400px;
-    height: auto;
-}
 
 /* Section Projects  */
 
