@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap'); */
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +16,8 @@ a {
 
 .navbar{
     display: flex;
+    background: black;
+    
 }
 
 .item-list{
@@ -22,6 +26,7 @@ a {
     height: 80px;
     justify-content: center;
     margin: auto;
+    /* position: fixed; */
 }
 
 .nav-item{
@@ -29,6 +34,14 @@ a {
     justify-content: space-evenly;
     text-decoration: none;
 
+}
+
+.logo{
+    font-family: 'Shrikhand', 'cursive', 'san-sarif';
+    color: white;
+    border: 3px solid white;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .button {
@@ -45,8 +58,9 @@ a {
   }
   
   .button:hover {
-    background-color: #D1EFFB;
-    color: #1DB6F6;
+    /* background-color: #D1EFFB; */
+    color: rgb(231, 237, 255);
+    border: 1px solid #333E52;
   }
   
   .button:focus {
