@@ -154,55 +154,87 @@ a {
 /* Section Projects  */
 
 .projects{
-    background: #DDFFBB;
+    background: black;
     display: flex;
-    border: 1px solid black;
     width: 100%;
-    height: 500px;
-    justify-content: space-around;
+    height: auto;
+    flex-direction: column;
 }
 
 .project-sub{
-    width: 33%;
-    border: 1px solid black;
+    width: 90%;
+    margin: auto;
 }
 
-/* Section touch  */
-
-.touch{
-    background: #DDFFBB;
-    display: flex;
-    flex-direction: column;
-    /* border: 1px solid black; */
-    width: 100%;
-    height: 500px;   
-
+.project-name{
+    color: rgb(208, 215, 234);
+    margin: 20px;
 }
 
-.last-message{
-    text-align: center;
+.project-topic:hover{
+    color: white;
+}
+
+.project-desc{
+    width: 90%;
+}
+
+.desc-bar{
     margin: 2rem;
 }
 
-.touch-context{
+.desc-points{
+    color: white;
+}
+
+/* Section contact  */
+
+.contact{
+    background: black;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.last-message{
+    color: white;
     text-align: center;
 }
 
+.contact-context{
+    text-align: center;
+    color: white;
+    margin: 1rem;
+}
+
 .form{
+    width: 60%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: auto;
 }
 
 .form-content{
     display: flex;
     flex-direction: column;
-    margin: 3rem;
+    align-items: center;
 }
 
 .form-info{
-    text-align: center;
+    color: white;
 }
 
-.form-submit{
-    text-align: center;
+
+
+.footer{
+    height: 3rem;
+    width: 100%;
+    background: black;
+}
+
+.footer-content{
+    padding: 1rem;
+    color: white;
+    
 }
