@@ -114,23 +114,24 @@ a {
 }
 
 .left{
-    width: 40%;
+    width: 30%;
     display: flex;
 }
 
 .profile-pic{
     margin: auto;
+    margin-right: 10px;
+}
+
+.right{
+    width: 70%;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .pic{
     height: 300px;
-}
-
-.right{
-    width: 60%;
-    color: white;
-    display: flex;
-    flex-direction: column;
 }
 
 .heading{
@@ -147,7 +148,7 @@ a {
 .heading-about{
     display: flex;
     text-align: left;
-    width: 90%;
+    width: 85%;
 }
 
 
@@ -159,6 +160,12 @@ a {
     width: 100%;
     height: auto;
     flex-direction: column;
+}
+
+.project-heading{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
 }
 
 .project-sub{
