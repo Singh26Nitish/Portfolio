@@ -214,34 +214,39 @@ a {
     margin: 1rem;
 }
 
-.form{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-}
-
-.form-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-info{
-    color: white;
-}
-
-
-
 .footer{
     height: 3rem;
     width: 100%;
     background: black;
+    display: flex;
+}
+
+.footer-right{
+    width: 50%;
+}
+
+.footer-left{
+    width: 50%;
+    color: white;
 }
 
 .footer-content{
-    padding: 1rem;
-    color: white;
+    padding: auto;    
+}
+
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
     
+}
+
+.icons{
+    padding: auto;
+    font-size: 1.5rem;
+    margin-inline: 1rem;
+}
+
+.icons > a{
+    color: white;
 }
