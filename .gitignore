@@ -1,0 +1,7 @@
+# Ignore Node.js related files and directories
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npmrc
+.yarnrc

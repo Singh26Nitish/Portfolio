@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".//src/stylesheet/style.css">
+    <link rel="stylesheet" href="./src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Shrikhand&display=swap" rel="stylesheet">
@@ -13,138 +13,136 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./src/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/heroicons@1.0.1/dist/heroicons.min.css" rel="stylesheet">
+
     <title>Nitish Portfolio</title>
 </head>
-<body>
+<body class="bg-neutral-900  text-white w-4/5 m-auto">
     <!-- Navbar  -->
-    <Nav>
-        <dev class="navbar ">
-            <dev class="item-list nav-component">
-                <div class="nav-item">
-                    <h1 class="logo">NS</h1>
-                </div>
-                <dev class="nav-item">
-                    <a class="button" href="#home">Home</a>
-                </dev>
-                <dev class="nav-item">
-                    <a class="button" href="#about">About</a>
-                </dev>
-                <dev class="nav-item">
-                    <a class="button" href="#project">Project</a>
-                </dev>
-                <dev class="nav-item">
-                    <a class="button" href="#contact">Contact</a>
-                </dev>
-                <dev class="nav-item">
-                    <a class="button" href="#experience">Experience</a>
-                </dev>
-                <dev class="nav-item resume">
-                    <a class="button" href="https://docs.google.com/document/d/123BmMsOvxY1NNnrMuDfE7SCs_46K9UHmyTIOeHcfOYQ/edit?usp=sharing">Resume</a>
-                </dev>
-            </dev>
-        </dev>
-    </Nav>
-
-    <!-- About Me -->
-
-    <section class="about" id="about">
-        <dev class="about-intro">
-            <dev class="introbrief left">
-                <dev class="profile-pic">
-                    <img class="pic" src="./src/images/profile img.png" alt="">
-                </dev>
-            </dev>
-            <dev class="introbrief right">
-                <dev class="heading">
-                    <p>Hi I'm</p>
-                    <h1>Nitish Singh</h3>
-                </dev>
-                <dev class="heading-about">
-                    <p class="intro-text">a front-end web developer skilled in HTML, CSS, and JavaScript. With a keen eye for design and a passion for crafting intuitive user interfaces, I strive to create engaging and seamless web experiences. Through my work, I aim to combine my technical expertise with a strong sense of aesthetics to bring ideas to life. Join me on this journey as we explore my projects and delve into the world of modern web development. Let's collaborate and build something exceptional together!</p>
-                </dev>
-            </dev>
-        </dev>
-    </section>
-
-    <section class="projects" id="project">
-        <div class="project-heading"><h1>My Projects</h1></div>
-        <dev class="project-sub">
-            <a class="project-name" href="https://singh26nitish.github.io/Movie-Info-Web-App/"><h2 class="project-topic">Movie Info App</h2></a>
-            <p class="project-desc">
-                <ul class="desc-bar">
-                    <li class="desc-points">
-                        Users can enter the name of a movie they are interested in, and the project will retrieve relevant information about the movie. This feature allows users to quickly access details about their favorite movies without manually searching through various sources.
-                    </li>
-                    <li class="desc-points">
-                        The project retrieves and presents comprehensive information about the searched movie, such as the title, release year, genre, plot summary, cast, director, ratings, and other relevant details. Users can gain a deeper understanding of the movie without having to visit multiple websites or sources.
-                    </li>
-                    <li class="desc-points">
-                        The project integrates with a movie database or API (Application Programming Interface) to fetch accurate and up-to-date movie information. This ensures that users receive reliable and current data about their selected movies, enhancing the overall user experience and trustworthiness of the project.
-                    </li>
-                </ul>
-            </p>
-        </dev>
-        <dev class="project-sub">
-            <a class="project-name" href="https://singh26nitish.github.io/Javascript-clock/"><h2 class="project-topic">JavaScript Clock</h2></a>
-            <p class="project-desc">
-                <ul class="desc-bar">
-                    <li class="desc-points">
-                        The JavaScript clock project displays the current time and date based on the user's browser. It utilizes the JavaScript Date object to retrieve the current time and date information and updates the clock in real-time. Users can rely on the clock to provide accurate and up-to-date information.
-                    </li>
-                    <li class="desc-points">
-                        The clock is designed to be responsive, adapting to different screen sizes and devices. Whether users access the clock on a desktop, laptop, tablet, or mobile device, the design and layout adjust accordingly to provide a consistent and user-friendly experience.
-                    </li>
-                    <li class="desc-points">
-                        The project allows for customization of the clock's appearance. You can apply CSS styling to the clock elements, such as font styles, colors, background, and size, to match the overall design and theme of your web page or application. This flexibility enables you to create a clock that seamlessly integrates into your project's visual aesthetics.
-                    </li>
-                </ul>
-            </p>
-        </dev>
-        <dev class="project-sub">
-            <a class="project-name" href="https://singh26nitish.github.io/Signup-page/"><h2 class="project-topic">Signup-page</h2></a>
-            <p class="project-desc">
-                <ul class="desc-bar">
-                    <li class="desc-points">
-                        The project includes a well-designed and user-friendly signup form that allows new users to create an account easily. The form should provide fields for users to input their information, such as name, email address, password, and any additional relevant details you require.
-                    </li>
-                    <li class="desc-points">
-                        The signup page is designed to be responsive, ensuring it adapts to different screen sizes and devices. This allows users to access and interact with the signup form seamlessly, whether they are using a desktop, laptop, tablet, or mobile device.
-                    </li>
-                    <li class="desc-points">
-                        The signup page utilizes CSS styling to create an aesthetically pleasing and visually appealing design. You can incorporate appropriate color schemes, typography, and visual elements that align with your project's branding or overall website design. This helps create a cohesive and engaging user experience.
-                    </li>
-                </ul>
-            </p>
-        </dev>
-    </section>
-
-    <section class="contact" id="contact">
-        <dev class="last-message">
-            <h1>Stay In Touch</h1>
-        </dev>
-        <dev class="contact-context">
-            <p>Unleash your creativity, collaborate with us, and let's bring forth extraordinary ideas that make a lasting impact.</p>
-        </dev>
-        
-        
-        
-    </section>
-    <section class="footer">
-        <dev class="footer-left">            
-            <p class="footer-content">© 2022 All rights reserved. Nitish Singh.</p> 
-        </dev>
-        <div class="footer-right">
-            <div class="socials">
-                <span class="icons">
-                    <a href="https://github.com/Singh26Nitish"><i class="fa-brands fa-github"></i></a>
-                </span>
-                <span class="icons">
-                    <a href="https://www.linkedin.com/in/singh-nitish26/"><i class="fa-brands fa-linkedin"></i></a>
-                </span>
+    <nav class=" py-4 w-1/3 m-auto">
+        <div class="container mx-auto flex justify-center items-center bg-black rounded-3xl py-2">
+            <div class="space-x-4">
+              <a href="#" class="text-white hover:text-gray-300 transition">Home</a>
+              <a href="#" class="text-white hover:text-gray-300 transition">About</a>
+              <a href="#" class="text-white hover:text-gray-300 transition">Contact</a>
             </div>
         </div>
+    </nav>
 
+
+    <!-- home -->
+
+    <section class="home flex ">
+        <div class="mx-auto w-2/5" ><img class=" h-40 rounded-full mx-auto" src="./src/images/N.png" alt="logo"></div>
+        <div class="w-3/5" >
+            <p class="w-4/5">
+                Hello! I'm Nitish, a Full Stack Developer and Computer Science student. Proficient in HTML, CSS, and JavaScript, I create dynamic web applications. 
+                My expertise extends to backend development using Node.js, Express.js, and MongoDB. I excel in crafting robust APIs and prioritize clean coding. 
+                With a knack for version control using Git and GitHub, I ensure efficient collaboration. I'm also delving into Python for added versatility. 
+                Explore my portfolio for a glimpse in my world of innovative solutions and seamless user experiences.
+            </p>
+        </div>
     </section>
+
+    <!-- about  -->
+
+    <section class="about">
+        
+        <h1 class="text-xl font-semibold mt-4 text-center">My Projects</h1>
+
+        <div class="projects grid grid-cols-3">
+            <div class="px-10">
+                <div>
+                    <img src="./src/images/movie-info.png" alt="project-image" class=" shadow-md m-2 rounded-md">
+                </div>
+                <div>
+                    <h3><a href="https://singh26nitish.github.io/Movie-Info-Web-App/" class="text-lg font-semibold m-2 mt-4">Movie Info Web App</a></h3>
+                    <p class="text-gray-500 m-2 mt-2">Users can enter the name of a movie they are interested in, and the project will retrieve relevant information about the movie. This feature allows users to quickly access details about their favorite movies without manually searching through various sources.</p>
+                    <div class="text-center">
+                        <button type="submit text-center">
+                            <a href="https://github.com/Singh26Nitish/Movie-Info-Web-App" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 ">
+                            Check code
+                            </a>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="px-10">
+                <div>
+                    <img src="./src/images/js-clock.png" alt="project-image" class="shadow-md m-2 rounded-md">
+                </div>
+                <div>
+                    <h3><a href="https://singh26nitish.github.io/Javascript-clock/" class="text-lg font-semibold m-2 mt-4" >JavaScript Clock</a></h3>
+                    <p class="text-gray-500 m-2 mt-2">Users can enter the name of a movie they are interested in, and the project will retrieve relevant information about the movie. This feature allows users to quickly access details about their favorite movies without manually searching through various sources.</p>
+                    <div class="text-center">
+                        <button type="submit text-center">
+                            <a href="https://github.com/Singh26Nitish/Javascript-clock" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 ">
+                            Check code
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="px-10">
+                <div>
+                    <img src="./src/images/signup-page.png" alt="project-image" class="shadow-md m-2 rounded-md">
+                </div>
+                <div>
+                    <h3><a href="https://singh26nitish.github.io/Signup-page/" class="text-lg font-semibold m-2 mt-4">Signup page</a></h3>
+                    <p class="text-gray-500 m-2 mt-2">Users can enter the name of a movie they are interested in, and the project will retrieve relevant information about the movie. This feature allows users to quickly access details about their favorite movies without manually searching through various sources.</p>
+                    <div class="text-center">
+                        <button type="submit text-center">
+                            <a href="https://github.com/Singh26Nitish/Signup-page" target="_blank" class="bg-gray-800 text-white px-4 py-2 rounded-md hover:bg-gray-700 ">
+                            Check code
+                            </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        
+        <!-- <div>Achievements</div> -->
+        
+    </section>
+
+    <!-- contact -->
+
+    <section class="contact">
+        <h1 class="text-xl font-semibold mt-4 text-center">Socials</h1>
+        <div class="flex ">
+            <div class="w-1/3"><img class=" " src="./src/images/profile img.png" alt=""></div>
+            <div class="mt-8 m-auto w-2/3 items-center ml-40 ">
+                <a href="https://twitter.com/your_username/" target="_blank" class="mr-4">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/your-username/" target="_blank" class="mr-4">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/your-username/" target="_blank" class="mr-4">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/your_username/" target="_blank" class="mr-4">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.discordapp.com/users/744113232414900264" target="_blank" class="mr-4">
+                    <i class="fa-brands fa-discord"></i>
+                </a>
+            </div>
+        </div>
+        
+          
+    </section>
+
+    <footer class="h-20">
+        <div class="flex justify-end items-end h-auto ">
+            <p class="text-gray-500"> © 2022 Nitish Singh. All rights reserved.</p>
+        </div>
+    </footer>
 
     <script src="./index.html"></script>
 </body>
