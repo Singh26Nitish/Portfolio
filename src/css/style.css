@@ -3,3 +3,13 @@
 @import "tailwindcss/components";
 
 @import "tailwindcss/utilities";
+
+/* Custom CSS for hover effect */
+.social-icon + span {
+    display: none;
+  }
+  
+  .social-icon:hover + span {
+    display: inline-block;
+    transition: 1s;
+  }
